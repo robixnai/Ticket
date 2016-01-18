@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bilhete Fácil</string>
+    <string name="msg_welcome">Bem vindo ao</string>
+
+    <string name="title_menu_tickets">Bilhetes</string>
+    <string name="title_menu_exit">Sair</string>
+
+</resources>

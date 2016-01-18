@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Transparency: http://stackoverflow.com/questions/1492554/set-transparent-background-of-an-imageview-in-android -->
+    <color name="black">#000000</color>
+    <color name="black_100_opaque">#FF000000</color>
+    <color name="black_100_transparent">#00000000</color>
+    <color name="black_50_transparent">#80000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#e4e4e4</color>
+    <color name="material_red_600">#E53935</color>
+
+    <!-- QRCODE Colors -->
+    <color name="qrcode_status_text">#ffffffff</color>
+    <color name="qrcode_transparent">#00000000</color>
+    <color name="qrcode_viewfinder_frame">#ff000000</color>
+    <color name="qrcode_viewfinder_laser">#ffff0000</color>
+    <color name="qrcode_viewfinder_mask">#60000000</color>
+    <color name="qrcode_result_view">#b0000000</color>
+    <color name="qrcode_possible_result_points">#c0ffff00</color>
+    <color name="qrcode_result_image_border">#ffffffff</color>
+    <color name="qrcode_result_points">#c000ff00</color>
+
+    <!-- BUTTONS -->
+    <color name="button_transparency">#00000000</color>
+
+</resources>

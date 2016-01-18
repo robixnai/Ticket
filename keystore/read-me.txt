@@ -1,0 +1,15 @@
+Create by charleston anjos
+
+Create certificate to get SHA Key (to enable api google authenticate)
+
+#windows
+keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias castpocketkey -storepass 32edqdxqwd1dqa -keypass 9u087bvya21xa
+
+#linux
+keytool -list -v -keystore ~/.android/debug.keystore -alias castpocketkey -storepass 32edqdxqwd1dqa -keypass 9u087bvya21xa
+
+Copy hash SHA-1 and attach in google console
+
+Packages
+br.com.cast.ticket.seller.app
+br.com.cast.ticket.buyer.app

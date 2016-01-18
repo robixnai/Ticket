@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- should be located in /app/src/paid/res/values/strings.xml -->
+<resources>
+    <string name="app_name">Bilhete Fácil</string>
+    <string name="msg_welcome">Welcome to</string>
+
+    <string name="title_menu_tickets">Tickets</string>
+    <string name="title_menu_exit">Exit</string>
+
+</resources> 

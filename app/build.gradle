@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "br.com.cast.ticket.app"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        seller {
+            applicationId = "br.com.cast.ticket.seller.app"
+            versionName = "1.0-P"
+        }
+        buyer {
+            applicationId = "br.com.cast.ticket.buyer.app"
+            versionName = "1.0-F"
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:cardview-v7:22.2.1'
+    compile 'com.android.support:recyclerview-v7:22.2.1'
+    compile 'com.android.support:design:22.2.1'
+    compile 'com.google.android.gms:play-services:7.5.0'
+    compile 'com.github.ganfra:material-spinner:1.1.0'
+    compile 'com.google.zxing:core:3.2.0'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.4.2'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.4.0'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.4.2'
+}

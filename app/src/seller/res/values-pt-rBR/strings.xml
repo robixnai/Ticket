@@ -1,0 +1,7 @@
+<!-- should be located in /app/src/paid/res/values/strings.xml -->
+<resources>
+    <string name="app_name">Bilhete Fácil</string>
+    <string name="title_menu_reader">Leitor</string>
+    <string name="title_activity_seller_ticket">Bilhete</string>
+    <string name="msg_error_qrcode">O QR Code processado não foi gerado pelo Easy Ticket.</string>
+</resources> 

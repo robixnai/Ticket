@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.cast.ticket">
+
+    <application>
+
+        <activity
+            android:name=".app.SellerTicketActivity"
+            android:label="@string/title_activity_seller_ticket"
+            android:parentActivityName=".app.MainActivity" />
+
+        <activity
+            android:name=".app.util.qrcode.ScannerCodeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+    </application>
+
+</manifest>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bilhete Fácil</string>
+    <string name="message_welcome">Bem vindo ao</string>
+
+    <string name="title_new_ticket">Novo Bilhete</string>
+    <string name="title_menu_config">Configurações</string>
+    <string name="title_menu_about">Sobre</string>
+
+    <string name="navigation_drawer_open">Abrir drawer de navegação</string>
+    <string name="navigation_drawer_close">Fechar drawer de navegação</string>
+    <string name="action_login">Login G+</string>
+
+    <!-- Strings related to login -->
+    <string name="title_login">Bilhete Fácil</string>
+    <string name="label_user_email">E-mail</string>
+    <string name="label_user_password">Senha</string>
+    <string name="button_sign_up">Registrar</string>
+    <string name="button_sign_in">Entrar</string>
+    <string name="divider_or">Ou</string>
+    <string name="progress_authenticate">Autenticando…</string>
+    <string name="progress_wait">Aguarde</string>
+    <!-- End related to login -->
+
+    <string name="label_ticket_state">Estado</string>
+    <string name="label_ticket_passenger_type">Tipo de Passageiro</string>
+    <string name="label_ticket_transport_type">Tipo de Transporte</string>
+    <string name="label_ticket_line">Linha</string>
+    <string name="label_ticket_tax_type">Modalidade</string>
+
+    <string name="scan">Escanear</string>
+    <string name="message_capture_code">Aponte para o código para escanear</string>
+    <string name="tab_bus">Ônibus</string>
+    <string name="tab_subway">Metrô</string>
+    <string name="message_buyer_ticket_success">Compra efetuada com sucesso.</string>
+
+    <string name="label_first_name">Nome</string>
+    <string name="label_last_name">Sobrenome</string>
+    <string name="label_cell_phone">Telefone</string>
+    <string name="label_email">Email</string>
+    <string name="label_terms_conditions_agree">Eu concordo com os Termos e Condições</string>
+    <string name="label_btn_register">Registrar</string>
+    <string name="label_password">Senha</string>
+    <string name="label_confirm_password">Confirme a Senha</string>
+    <string name="message_register_user_success">Usuário registrado com êxito!</string>
+    <string name="message_error_empty_string">O campo não pode ser vazio</string>
+    <string name="message_terms_conditions_required">Você não pode realizar o cadastro, se não aceitar os termos e condições.</string>
+    <string name="message_different_passwords">As senhas são diferentes</string>
+    <string name="label_alias">Nome</string>
+    <string name="title_new_user">Novo Usuário</string>
+    <string name="message_marker_ticket">Locais de uso Ticket</string>
+    <string name="label_term">Ler Termo</string>
+    <string name="tab_OK">OK</string>
+    <string name="label_terms_conditions">Termos e Condições</string>
+    <string name="tab_terms">Lorem ipsum dolor,Lorem ipsum dolor,Lorem ipsum dolor,Lorem ipsum dolor,Lorem ipsum dolor,Lorem ipsum dolor,Lorem ipsum dolor</string>
+
+    <string name="enum_passager_child">Infantil</string>
+    <string name="enum_passager_adult">Adulto</string>
+    <string name="enum_passager_elderly">Idoso</string>
+    <string name="enum_tax_unique">Único</string>
+    <string name="enum_tax_hourly">Hora</string>
+    <string name="enum_tax_daily">Diário</string>
+    <string name="enum_tax_weekend">Semanal</string>
+    <string name="enum_tax_area">Área</string>
+    <string name="enum_bus">Ônibus</string>
+    <string name="enum_subway">Metro</string>
+
+</resources>

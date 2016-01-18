@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_bus"
+                android:tint="@android:color/white"/>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_subway"
+                android:tint="@android:color/white"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/message_welcome"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cast Group"
+            android:gravity="bottom|end"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>
